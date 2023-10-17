@@ -1,0 +1,36 @@
+.abc {
+  text-align: center;
+}
+
+
+input {
+  width: 300px;
+}
+
+.abc-xyz {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.calculate-button {
+  
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #0371e7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.calculate-button:hover {
+  background-color: #025bb9;
+}
